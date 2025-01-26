@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+	background: linear-gradient(-45deg, #1A699C, #12496D, #12496E, #0A293F);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: 100vh;
+
+    font-family: Lexend Deca;
+    font-size: 12rm;
+    color: White;
+
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    width: 1000px;
+    padding: 207px 109px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 97px;
+}
+
+a:link {
+    color: #ad7abe;
+}
+
+a:visited {
+    color: #ad7abe;
+}
+
+a:hover {
+    color: #dd96bc;
+}
+
+.download {
+    font-family: Lexend Deca;
+    font-size: 20px;
+    width: 350px;
+    height: 100.98px;
+    border: none;
+    flex-shrink: 0;
+    border-radius: 16px;
+    color: #FFF;
+    background: linear-gradient(80deg, #0C314A -14.94%, #000 139.88%);
+    transition: all 0.2s ease-in-out;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.download:hover {
+    box-shadow: 0 5px 15px rgba(12, 12, 12, .4);
+}
+
+.description {
+    color: #FFF;
+    font-size: 24px;
+    font-style: light;
+    font-weight: 300;
+    line-height: normal;
+    width: 782px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
